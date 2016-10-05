@@ -10,3 +10,6 @@ However to do so you need to make regular commits to it.
 Commits are like snapshots of the states of some files in your working directory.
 Before committing anything to a repository, you need to first add files to the staging area.
 The staging area thus allows you to carefully select the files of which you want to keep track together.
+
+How can you use the staging area to make sure you have one commit per logical change?
+By selecting the files which contains the logical change and only putting those in the staging area
