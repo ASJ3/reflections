@@ -21,3 +21,7 @@ me to explorer alternatives without impacting my master branch.
 
 How do the diagrams help you visualize the branch structure?
 Diagrams help me to see what commits belong to what branch and what commits might be "unreachable" from other branches
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+merging two branches will combine the code introduced in each of the branches.
+The diagram helps us to see what commit belong to what branch, and where these commits were created.
