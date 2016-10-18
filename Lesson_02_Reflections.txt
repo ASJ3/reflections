@@ -25,3 +25,9 @@ Diagrams help me to see what commits belong to what branch and what commits migh
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 merging two branches will combine the code introduced in each of the branches.
 The diagram helps us to see what commit belong to what branch, and where these commits were created.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+While it's nice for Git to automatically merge certain changes, in other cases it is better to 
+manually review what is happening. In certain cases, the changes made (deletions, additions) might
+build on top of each other, so simply adding everything new and deleting everything that was deleted
+from each different version would probably result in code that is not working.
