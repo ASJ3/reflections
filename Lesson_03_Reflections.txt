@@ -5,3 +5,13 @@ working from multiple computers).
 It also saves your work in a remote place, so that if your computer crashes, your content is 
 safely stored in the repo.
 Finally, it allows you to share your project with anyone interested.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Forks are specific to GitHub, and could be considered a particular type of clone.
+With a fork I clone a repository from GitHub onto my own GitHub account. One of the advantages
+of doing that is that GitHub keeps track of how many people forked a repository. This enables one to 
+see how popular a repository is.
+Clone makes a copy of a repository. I can clone a GitHub repo onto my own computer, or I could clone
+a repo already on my computer onto another repo on my computer
+A branch is part of the same repository. By branching I can start working on new features without
+affecting the master branch. Then when I'm satisfied I can merge back the branch into master
