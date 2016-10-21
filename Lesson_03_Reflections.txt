@@ -1,1 +1,7 @@
 When would you want to create a remote repository rather than keeping all your work local?
+A remote repository offers many advantages:
+It allows for collaboration between multiple computers (i.e. multiple collaborators, or one person
+working from multiple computers).
+It also saves your work in a remote place, so that if your computer crashes, your content is 
+safely stored in the repo.
+Finally, it allows you to share your project with anyone interested.
