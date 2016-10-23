@@ -15,3 +15,8 @@ Clone makes a copy of a repository. I can clone a GitHub repo onto my own comput
 a repo already on my computer onto another repo on my computer
 A branch is part of the same repository. By branching I can start working on new features without
 affecting the master branch. Then when I'm satisfied I can merge back the branch into master
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+It allows you to compare your local repo to the state of the remote. This way when you run git status
+it will tell you whether you are ahead of "origin/..." so you know that you have to push to the remote
+to sync it with your local repo.
