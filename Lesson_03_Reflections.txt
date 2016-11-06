@@ -20,3 +20,6 @@ What is the benefit of having a copy of the last known state of the remote store
 It allows you to compare your local repo to the state of the remote. This way when you run git status
 it will tell you whether you are ahead of "origin/..." so you know that you have to push to the remote
 to sync it with your local repo.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Each person would keep a copy on their own computer. Then we would get together and merge what we've been working on. It would be really difficult to keep track of the changes each person made if more than one file was involved. However, it would be easier initially since no setup is necessary (i.e. no git creation, no git add, git push, git commit)
