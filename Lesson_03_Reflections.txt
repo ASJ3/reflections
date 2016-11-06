@@ -23,3 +23,6 @@ to sync it with your local repo.
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 Each person would keep a copy on their own computer. Then we would get together and merge what we've been working on. It would be really difficult to keep track of the changes each person made if more than one file was involved. However, it would be easier initially since no setup is necessary (i.e. no git creation, no git add, git push, git commit)
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+The master should always be for the final working version of a project. So I use branch to work things out, then I merge the branch into the master. Of course, working in a branch complicate things a bit as opposed to just working on the master branch for everything.
